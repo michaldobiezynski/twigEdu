@@ -1,0 +1,16 @@
+{
+  "name": "twigedu",
+  "version": "1.0.0",
+  "description": "An app for dividing array into N equally sized arrays",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "author": "Michal Dobiezynski",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "nodemon": "^2.0.2"
+  }
+}
