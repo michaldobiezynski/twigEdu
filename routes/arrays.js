@@ -13,8 +13,8 @@ router.post(
     check('array', 'You have not passed an array.').isArray(),
     check(
       'chunkSize',
-      'You need to provide a positive integer for chunkSize.',
-    ).isInt({ gt: 1 }),
+      'You need to provide an integer greater than 0 for chunkSize.',
+    ).isInt({ gt: 0 }),
   ],
   (req, res) => {
     const errors = validationResult(req);
